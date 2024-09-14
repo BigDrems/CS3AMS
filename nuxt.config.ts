@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt"],
+
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -11,4 +12,6 @@ export default defineNuxtConfig({
      */
     componentDir: "./components/ui",
   },
+
+  compatibilityDate: "2024-09-14",
 });
